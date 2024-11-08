@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&target);
     for(int i=0;i<n;i++){
         if(target==a[i]){
-            printf("the element is present\n");
+            printf("the element is present at index %d\n",i);
             return 0;
         }
     }
