@@ -7,6 +7,7 @@ int main(){
     {
        length++; /* code */
     }
-    printf("the length of the string is %d",length);
+    printf("the length of the string with inbulit is:%d\n",length);
+    printf("the length of string with inbulit fun is:%d",strlen(str));
     return 0;
 }
